@@ -1,5 +1,8 @@
 package com.futuregong.leetcode;
 
+import java.util.Iterator;
+import java.util.List;
+
 /* Given two 1d vectors, implement an iterator to return their elements alternately.
  * For example, given two 1d vectors:
  * v1 = [1, 2]
@@ -9,5 +12,8 @@ package com.futuregong.leetcode;
  */
 
 public class ZigzagIterator {
+	
+	private List<Iterator<Integer>> iters;
+	private int index;
 
 }
